@@ -5,7 +5,7 @@
 </script>
 
 {#if spinnerData}
-  <article class="w-full">
+  <article class="w-full max-w-lg">
     <h2>{spinnerData.title}</h2>
     <h3>{sliderValue} - {frameNum}</h3>
     <img
